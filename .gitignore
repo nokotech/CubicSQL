@@ -12,5 +12,6 @@ mongodb/log/*
 #============================
 build/
 dist/
+temp/
 node_modules/
 *debug.log*
