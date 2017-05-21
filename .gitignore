@@ -1,0 +1,17 @@
+
+#============================
+# MongoDB
+#============================
+mongodb/data/*
+!mongodb/data/.keep
+mongodb/log/*
+!mongodb/log/.keep
+
+#============================
+# node
+#============================
+build/
+dist/
+temp/
+node_modules/
+*debug.log*

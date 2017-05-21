@@ -1,0 +1,27 @@
+{
+  "name": "cubic_sql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "mongod --dbpath \"./mongodb/data\"",
+    "node": "node .\\src\\js\\app.js",
+    "py": "python .\\src\\py\\main.py",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nokotech/CubicSQL.git"
+  },
+  "author": "Takenoko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nokotech/CubicSQL/issues"
+  },
+  "homepage": "https://github.com/nokotech/CubicSQL#readme",
+  "dependencies": {
+    "mongodb": "^2.2.26"
+  }
+}
+
+
